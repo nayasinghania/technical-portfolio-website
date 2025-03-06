@@ -8,7 +8,7 @@
     "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "style": "prettier --write .",
+    "format": "prettier --write .",
     "lint": "eslint \"src/**/*.{js,ts,astro}\""
   },
   "dependencies": {

@@ -1,23 +1,44 @@
 {
   "projects": [
     {
-      "name": "Persona.fm",
-      "description": "A full stack Next.js application that uses the Last.FM API to show users snapshots of their listening habits. This project uses OpenAI's 4o mini model to generate information about a user's listening history on Last.fm for the last 7 days. This is my main project that I am working on, and I am currently in the process of adding more features to the site.",
-      "link": "https://github.com/personafm/persona.fm",
-      "langs": "TypeScript,JavaScript,HTML,CSS,PostgreSQL-Dark",
-      "tools": "NextJS-Dark,TailwindCSS-Dark,Supabase-Dark,React-Dark,Figma-Dark,Markdown-Dark",
-      "date": "Summer 2024 - Present",
+      "name": "Scrobble Quiz",
+      "description": "Test your music knowledge based on your Last.fm (music service) history! This  project uses both traditional ML and generative AI to generate relevant quiz questions for the user. I am hoping to add support for other music services in the future as well!",
+      "link": "https://github.com/raspberri05/scrobble-quiz",
+      "langs": "TypeScript,JavaScript,Python-Dark,HTML,CSS",
+      "tools": "NextJS-Dark,React-Dark,FastAPI,TailwindCSS-Dark",
+      "date": "Jan 2025 - Present",
       "custom": {
         "text": "View live site",
-        "link": "https://personafm.com"
+        "link": "https://scrobblequiz.nayasinghania.com"
       }
     },
     {
-      "name": "Fake News Detection",
-      "description": "A project where I am working on scraping truthfulness of comments and news relating to political figures and analyzing the data to determine the truthfulness of the news. I am currently in the web scraping phase of the project, and will need large amounts of data prior to training the model. I plan to use Tensorflow for model training, althought this may change as my familiarity with machine learning increases.",
-      "link": "https://github.com/raspberri05/fake-news-detection",
-      "langs": "Python-Dark",
-      "date": "Fall 2024 - Present"
+      "name": "Access Finder",
+      "description": "Discover and rate locations based on their accessibility features! I am currently actively working on this project and hoping to have a minimum viable product within the next few months",
+      "link": "https://github.com/accessfinder/accessfinder",
+      "langs": "TypeScript,JavaScript,HTML,CSS,PostgreSQL-Dark",
+      "tools": "NextJS-Dark,React-Dark,Supabase-Dark,TailwindCSS-Dark",
+      "date": "Jan 2025 - Present",
+      "custom": {
+        "text": "View live site",
+        "link": "https://dev.accessfinder.org"
+      }
+    },
+    {
+      "name": "Persona.fm",
+      "description": "A full stack Next.js application that uses the Last.FM API to show users snapshots of their listening habits. This project uses OpenAI's 4o mini model to generate information about a user's listening history on Last.fm for the last 7 days.",
+      "link": "https://github.com/personafm/persona.fm",
+      "langs": "TypeScript,JavaScript,HTML,CSS,PostgreSQL-Dark",
+      "tools": "NextJS-Dark,React-Dark,Supabase-Dark,TailwindCSS-Dark",
+      "date": "June 2024 - Dec 2024"
+    },
+    {
+      "name": "Website",
+      "description": "My personal website (the one you are currently one). I maintain this as an open source project to help people get started with making their own portfolio websites.",
+      "link": "https://github.com/raspberri05/website",
+      "langs": "TypeScript,JavaScript,HTML,CSS",
+      "tools": "Astro,React-Dark,TailwindCSS-Dark",
+      "date": "Jan 2022 - Present"
     },
     {
       "name": "ChairSense",
@@ -25,7 +46,7 @@
       "link": "https://github.com/raspberri05/chairSense",
       "langs": "CPP",
       "tools": "Arduino",
-      "date": "Fall 2021"
+      "date": "Sep 2021 - Dec 2021"
     }
   ]
 }

@@ -10,24 +10,25 @@ I deployed my site via Netlify, but there are many other free services where you
 
 ## Features
 
-* Light or dark mode
-* Fade in animation for all pages
-* Gradient card for page data
-* Footer links
-* Mobile-friendly (responsive)
-* Automatic sitemap generation upon build
+- Light or dark mode
+- Fade in animation for all pages
+- Gradient card for page data
+- Footer links
+- Mobile-friendly (responsive)
+- Automatic sitemap generation upon build
 
 ### Pages
-* Home - This is the main page. The headline below the name has a typing animation
-* About - This about page has an image with some text. The text goes below the image on small screens
-* Projects - A list of projects, with relevant icons.
-* Resume - links to a PDF of a resume
+
+- Home - This is the main page. The headline below the name has a typing animation
+- About - This about page has an image with some text. The text goes below the image on small screens
+- Projects - A list of projects, with relevant icons.
+- Resume - links to a PDF of a resume
 
 ## Using this as a template
 
 Want to create your own website from this template? Click `Use this template` to get started! This is an theme that has been verified by Astro (the framework used to built my website) as a theme. You can find the posting [here](https://astro.build/themes/details/minimal-personal-website-portfolio/).
 
-Once you've copied the code via the use template button and cloned your copy of the template locally, you can get started by running `npm install`. This will install the dependencies (you only need to do this once). Next, run `npm run dev` to start the dev server. Now, you can open the site locally and see the template with the example data in it! 
+Once you've copied the code via the use template button and cloned your copy of the template locally, you can get started by running `npm install`. This will install the dependencies (you only need to do this once). Next, run `npm run dev` to start the dev server. Now, you can open the site locally and see the template with the example data in it!
 
 Now, you can edit the json files in src/content/data to customize the template with your own information. Make sure to update each file in src/content/data accordingly. Make sure to update the site's domain in `astro.config.mjs` to your website's domain as well.
 
@@ -44,7 +45,7 @@ To change or remove the background gradient on this website:
 1. **Locate the Gradient Definition**: Go to `src/styles/globals/css`.
 
 2. **Modify the Gradient**:
-    Adjust gradient colors by editing the hex values in the CSS where it says `linear-gradient`.
+   Adjust gradient colors by editing the hex values in the CSS where it says `linear-gradient`.
 
 ## Images
 
