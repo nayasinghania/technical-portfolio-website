@@ -2,21 +2,41 @@
 import { Button } from "@/components/ui/button";
 import DefaultLayout from "@/layouts/DefaultLayout.astro";
 const { title, header, subheader, btntext, link } = Astro.props;
+
+// Split subheader by '|'
+const subheaderParts = subheader.split("|");
 ---
 
 <DefaultLayout title={title}>
   <div
     class="flex flex-col h-[75vh] text-center justify-center items-center fade text-white"
   >
-    <div class="text-[4rem] text-center">
+    <h1 class="text-[4rem] text-center leading-snug">
       {header}
-    </div>
+    </h1>
     <div class="typewriter">
-      <h1 class="text-[1.2rem] md:text-2xl">{subheader}</h1>
+      {/* Mobile: each part on new line, hidden on md+ */}
+      <div class="block md:hidden">
+        <h2 class="text-[1.2rem]">
+          {
+            subheaderParts.map((part: string, idx: number) => (
+              <span>
+                {part.trim()}
+                {idx !== subheaderParts.length - 1 && <br />}
+              </span>
+            ))
+          }
+        </h2>
+      </div>
+      {/* Desktop: original behavior, hidden on mobile */}
+      <h2 class="hidden md:block text-3xl">{subheader}</h2>
     </div>
     <br />
     <a href={link}>
-      <Button className="hover:opacity-80 mt-4">
+      <Button
+        className="dark:hover:bg-black/60 hover:bg-white/60 mt-4 dark:bg-black dark:text-white bg-white text-black"
+      >
+        {/* Mobile: text-lg, Desktop: text-xl */}
         <p class="text-xl">{btntext}</p>
       </Button>
     </a>

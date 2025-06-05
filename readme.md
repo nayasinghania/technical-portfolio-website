@@ -22,7 +22,6 @@ I deployed my site via Netlify, but there are many other free services where you
 - Home - This is the main page. The headline below the name has a typing animation
 - About - This about page has an image with some text. The text goes below the image on small screens
 - Projects - A list of projects, with relevant icons.
-- Resume - links to a PDF of a resume
 
 ## Using this as a template
 
@@ -31,8 +30,6 @@ Want to create your own website from this template? Click `Use this template` to
 Once you've copied the code via the use template button and cloned your copy of the template locally, you can get started by running `npm install`. This will install the dependencies (you only need to do this once). Next, run `npm run dev` to start the dev server. Now, you can open the site locally and see the template with the example data in it!
 
 Now, you can edit the json files in src/content/data to customize the template with your own information. Make sure to update each file in src/content/data accordingly. Make sure to update the site's domain in `astro.config.mjs` to your website's domain as well.
-
-Make sure to remove my resume and add your own pdf resume, and update src/content/data/navbar.json accordingly. If you don't want a resume on the site you can remove it from navbar.json
 
 While these instructions just give you basic information on how to use the template, feel free to change any of the code to fit your needs! This template was made using Astro and React, so taking a look at their documentation may help!
 

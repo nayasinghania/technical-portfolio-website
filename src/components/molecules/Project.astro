@@ -8,12 +8,12 @@ import {
   CardFooter,
 } from "@/components/ui/card";
 import LinkBtn from "@/components/atoms/LinkBtn.astro";
-const { name, description, href, ctext, clink, tools, langs, date } =
+const { name, description, href, ctext, clink, tools, langs, other, date } =
   Astro.props;
 ---
 
 <Card
-  className="rounded-xl bg-white/30 dark:bg-gray-800/30 border-none shadow-xl mx-2 md:mx-12 fade"
+  className="rounded-xl bg-white/30 dark:bg-gray-800/30 border-none shadow-2xl mx-2 md:mx-12 fade"
 >
   <CardHeader>
     <CardTitle className="text-gray-800 dark:text-gray-100">{name}</CardTitle>
@@ -30,7 +30,7 @@ const { name, description, href, ctext, clink, tools, langs, date } =
       {
         langs
           .split(",")
-          .map((lang: string, index: number) => (
+          .map((lang: string) => (
             <Image
               src={`https://raw.githubusercontent.com/tandpfun/skill-icons/refs/heads/main/icons/${lang}.svg`}
               width="44"
@@ -47,7 +47,7 @@ const { name, description, href, ctext, clink, tools, langs, date } =
         tools &&
           tools
             .split(",")
-            .map((tool: string, index: number) => (
+            .map((tool: string) => (
               <Image
                 src={`https://raw.githubusercontent.com/tandpfun/skill-icons/refs/heads/main/icons/${tool}.svg`}
                 width="44"
@@ -58,6 +58,24 @@ const { name, description, href, ctext, clink, tools, langs, date } =
             ))
       }
     </div>
+    {
+      other && (
+        <>
+          <br />
+          <div class="flex gap-2">
+            {other.split(",").map((icon: string) => (
+              <Image
+                src={`https://raw.githubusercontent.com/tandpfun/skill-icons/refs/heads/main/icons/${icon}.svg`}
+                width="44"
+                height="44"
+                alt="Project Skills"
+                class="skills-icons shadow-lg"
+              />
+            ))}
+          </div>
+        </>
+      )
+    }
   </CardContent>
   <CardFooter>
     <LinkBtn

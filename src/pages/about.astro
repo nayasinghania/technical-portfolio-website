@@ -1,7 +1,6 @@
 ---
-import LinkBtn from "@/components/atoms/LinkBtn.astro";
 import PageLayout from "@/layouts/PageLayout.astro";
-import { paragraphs, resume } from "@/content/data/about.json";
+import { paragraphs } from "@/content/data/about.json";
 import { Image } from "astro:assets";
 import favicon from "@/assets/favicon.jpg";
 ---
@@ -12,12 +11,12 @@ import favicon from "@/assets/favicon.jpg";
       <Image
         src={favicon}
         alt="Square portrait of Naya Singhania"
-        class="max-w-60 max-h-60 rounded-md"
+        class="max-w-60 max-h-60 rounded-xl shadow-xl"
       />
     </div>
     <div>
       {
-        paragraphs.map((paragraph, index) => (
+        paragraphs.map((paragraph) => (
           <>
             <p class="mx-2 md:mx-12">{paragraph}</p>
             <br />

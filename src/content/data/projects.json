@@ -2,10 +2,11 @@
   "projects": [
     {
       "name": "Accuguide",
-      "description": "Discover and rate locations based on their accessibility features! I am currently actively working on this project and hoping to have a minimum viable product within the next few months",
+      "description": "Accuguide is a project that aims to help people with disabilities find and rate locations based on accessibility features, with AI integration to get information to users quickly and efficiently. As someone who has a disability, I can see firsthand the impact potential of this project, and I hope this can become a tool for a more accessible world. I also hope to use this project as a way to connect with the community to not only advocate for accessibility, but to support the open source development community as well. I am currently working on adding various features, such as generative AI-powered sentiment and image analysis, to provide more detailed accessibility overviews of locations.",
       "link": "https://github.com/accuguide/accuguide",
       "langs": "TypeScript,JavaScript,HTML,CSS,PostgreSQL-Dark",
-      "tools": "NextJS-Dark,React-Dark,Supabase-Dark,TailwindCSS-Dark,GCP-Dark,AWS-Dark,Docker,Cypress-Dark,Cloudflare-Dark,Netlify-Dark",
+      "tools": "NextJS-Dark,React-Dark,Supabase-Dark,TailwindCSS-Dark,Docker,Cypress-Dark",
+      "other": "GCP-Dark,AWS-Dark,Cloudflare-Dark,Netlify-Dark",
       "date": "Jan 2025 - Present",
       "custom": {
         "text": "View live site",
@@ -14,7 +15,7 @@
     },
     {
       "name": "Scrobble Quiz",
-      "description": "Test your music knowledge based on your Last.fm (music service) history! This  project uses both traditional ML and generative AI to generate relevant quiz questions for the user. I am hoping to add support for other music services in the future as well!",
+      "description": "Test your music knowledge based on your Last.fm (music service) history! This project uses both traditional ML and generative AI to generate relevant quiz questions for the user. I am hoping to add support for other music services in the future as well, as well as refining ML pipelining and AI prompting to create various levels of questions!",
       "link": "https://github.com/raspberri05/scrobble-quiz",
       "langs": "TypeScript,JavaScript,Python-Dark,HTML,CSS",
       "tools": "NextJS-Dark,React-Dark,FastAPI,TailwindCSS-Dark",
@@ -27,7 +28,7 @@
 
     {
       "name": "Persona.fm",
-      "description": "A full stack Next.js application that uses the Last.FM API to show users snapshots of their listening habits. This project uses OpenAI's 4o mini model to generate information about a user's listening history on Last.fm for the last 7 days.",
+      "description": "A full stack Next.js application that uses the Last.FM API to show users snapshots of their listening habits. This project uses OpenAI's 4o mini model to generate information about a user's listening history on Last.fm for the last 7 days, and utilizes a PostgreSQL database via Supabase to allow users to store their data.",
       "link": "https://github.com/personafm/persona.fm",
       "langs": "TypeScript,JavaScript,HTML,CSS,PostgreSQL-Dark",
       "tools": "NextJS-Dark,React-Dark,Supabase-Dark,TailwindCSS-Dark",
@@ -35,7 +36,7 @@
     },
     {
       "name": "Website",
-      "description": "My personal website (the one you are currently one). I maintain this as an open source project to help people get started with making their own portfolio websites.",
+      "description": "My personal website (the one you are currently on) that utilizes Astro with Tailwind CSS, with some CSS animations as well. I maintain this as an open source project to help developers easily get started with making their own portfolio websites.",
       "link": "https://github.com/raspberri05/website",
       "langs": "TypeScript,JavaScript,HTML,CSS",
       "tools": "Astro,React-Dark,TailwindCSS-Dark",
@@ -43,7 +44,7 @@
     },
     {
       "name": "ChairSense",
-      "description": "For wheelchair users, it can be hard to see what's behind the chair, especially when backing up or turning, which can be dangerous because there is a high potential to hit an object or person. The aim of this project is to solve that problem by creating a low-cost device that can detect obstacles and warn the wheelchair user so they don't hit objects or people. A future goal is to test this out with other wheelchair users",
+      "description": "For wheelchair users, it can be hard to see what's behind the chair, especially when backing up or turning, which can be dangerous because there is a high potential to hit an object or person. With this project, I prototyped a low cost device that can detect obstacles and warn the user so they do not hit objects or people. I used an Arduino board as well as some sensors to achieve over 90% accuracy with a cost of only about $50 per unit, which is far cheaper than any similar devices currently available.",
       "link": "https://github.com/raspberri05/chairSense",
       "langs": "CPP",
       "tools": "Arduino",

@@ -110,15 +110,26 @@ body {
   background-repeat: no-repeat;
 }
 
-.typewriter h1 {
+/* Fix typewriter effect to target .typewriter h2 instead of h1 */
+.typewriter h2 {
   color: #fff;
   overflow: hidden;
-  border-right: 0.15em solid black;
+  border-right: 0.15em solid #fff; /* Use white caret for dark bg */
   white-space: nowrap;
   animation:
     typing 3.5s steps(30, end),
     blink-caret 0.75s step-end infinite,
     hide-caret 0s step-end 3.5s forwards;
+}
+
+/* Disable typewriter animation on mobile */
+@media (max-width: 767px) {
+  .typewriter h2 {
+    animation: none !important;
+    border-right: none !important;
+    white-space: normal;
+    overflow: visible;
+  }
 }
 
 @keyframes typing {
@@ -139,13 +150,13 @@ body {
     border-color: transparent;
   }
   50% {
-    border-color: black;
+    border-color: #fff; /* Match caret color */
   }
 }
 
 @keyframes hide-caret {
   from {
-    border-color: black;
+    border-color: #fff;
   }
   to {
     border-color: transparent;
