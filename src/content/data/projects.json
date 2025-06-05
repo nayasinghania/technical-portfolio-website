@@ -1,6 +1,18 @@
 {
   "projects": [
     {
+      "name": "Accuguide",
+      "description": "Discover and rate locations based on their accessibility features! I am currently actively working on this project and hoping to have a minimum viable product within the next few months",
+      "link": "https://github.com/accuguide/accuguide",
+      "langs": "TypeScript,JavaScript,HTML,CSS,PostgreSQL-Dark",
+      "tools": "NextJS-Dark,React-Dark,Supabase-Dark,TailwindCSS-Dark,GCP-Dark,AWS-Dark,Docker,Cypress-Dark,Cloudflare-Dark,Netlify-Dark",
+      "date": "Jan 2025 - Present",
+      "custom": {
+        "text": "View live site",
+        "link": "https://accuguide.org/"
+      }
+    },
+    {
       "name": "Scrobble Quiz",
       "description": "Test your music knowledge based on your Last.fm (music service) history! This  project uses both traditional ML and generative AI to generate relevant quiz questions for the user. I am hoping to add support for other music services in the future as well!",
       "link": "https://github.com/raspberri05/scrobble-quiz",
@@ -9,21 +21,10 @@
       "date": "Jan 2025 - Present",
       "custom": {
         "text": "View live site",
-        "link": "https://scrobblequiz.nayasinghania.com"
+        "link": "https://scrob.nayasinghania.com"
       }
     },
-    {
-      "name": "Access Finder",
-      "description": "Discover and rate locations based on their accessibility features! I am currently actively working on this project and hoping to have a minimum viable product within the next few months",
-      "link": "https://github.com/accessfinder/accessfinder",
-      "langs": "TypeScript,JavaScript,HTML,CSS,PostgreSQL-Dark",
-      "tools": "NextJS-Dark,React-Dark,Supabase-Dark,TailwindCSS-Dark",
-      "date": "Jan 2025 - Present",
-      "custom": {
-        "text": "View live site",
-        "link": "https://dev.accessfinder.org"
-      }
-    },
+
     {
       "name": "Persona.fm",
       "description": "A full stack Next.js application that uses the Last.FM API to show users snapshots of their listening habits. This project uses OpenAI's 4o mini model to generate information about a user's listening history on Last.fm for the last 7 days.",
