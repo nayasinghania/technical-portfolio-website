@@ -7,8 +7,6 @@ import tailwind from "@astrojs/tailwind";
 
 import sitemap from "@astrojs/sitemap";
 
-import partytown from "@astrojs/partytown";
-
 export default defineConfig({
   // change the 'site' value to your site's domain
   site: "https://nayasinghania.com",
@@ -21,10 +19,5 @@ export default defineConfig({
       applyBaseStyles: false,
     }),
     sitemap(),
-    partytown({
-      config: {
-        forward: ["dataLayer.push"],
-      },
-    }),
   ],
 });

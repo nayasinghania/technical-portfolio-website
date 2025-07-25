@@ -1,13 +1,13 @@
 ---
 import { Button } from "@/components/ui/button";
 import DefaultLayout from "@/layouts/DefaultLayout.astro";
-const { title, header, subheader, btntext, link } = Astro.props;
+const { title, description, header, subheader, btntext, link } = Astro.props;
 
 // Split subheader by '|'
 const subheaderParts = subheader.split("|");
 ---
 
-<DefaultLayout title={title}>
+<DefaultLayout title={title} description={description}>
   <div
     class="flex flex-col h-[75vh] text-center justify-center items-center fade text-white"
   >
@@ -34,7 +34,7 @@ const subheaderParts = subheader.split("|");
     <br />
     <a href={link}>
       <Button
-        className="dark:hover:bg-black/60 hover:bg-white/60 mt-4 dark:bg-black dark:text-white bg-white text-black"
+        className="dark:hover:bg-black/60 hover:bg-white/60 mt-4 dark:bg-black dark:text-white bg-white text-black p-6"
       >
         {/* Mobile: text-lg, Desktop: text-xl */}
         <p class="text-xl">{btntext}</p>

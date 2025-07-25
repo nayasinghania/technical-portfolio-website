@@ -1,11 +1,11 @@
 ---
 import Head from "@/components/atoms/Head.astro";
 
-const { title } = Astro.props;
+const { title, description } = Astro.props;
 ---
 
 <html lang="en">
-  <Head title={title} />
+  <Head title={title} description={description} />
   <body>
     <slot />
   </body>
