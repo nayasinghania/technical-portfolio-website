@@ -8,8 +8,21 @@ import {
   CardFooter,
 } from "@/components/ui/card";
 import LinkBtn from "@/components/atoms/LinkBtn.astro";
-const { name, description, href, ctext, clink, tools, langs, other, date } =
-  Astro.props;
+import { cn } from "@/lib/utils";
+const {
+  name,
+  description,
+  description2,
+  description3,
+  href,
+  ctext,
+  clink,
+  tools,
+  langs,
+  other,
+  date,
+  images,
+} = Astro.props;
 ---
 
 <Card
@@ -22,9 +35,67 @@ const { name, description, href, ctext, clink, tools, langs, other, date } =
     <p class="text-gray-800 dark:text-gray-300">
       {description}
     </p>
+    <p class="text-gray-800 dark:text-gray-300">
+      {description2}
+    </p>
+    <p class="text-gray-800 dark:text-gray-300">
+      {description3}
+    </p>
     <p class="text-sm pt-2 text-gray-700 dark:text-gray-400">
       {date}
     </p>
+
+    {
+      images && (
+        <>
+          <br />
+          <div
+            class={cn(
+              "grid grid-cols-1 md:grid-cols-2 gap-2 mb-4",
+              images.image1.includes("accuguide") ||
+                images.image1.includes("website")
+                ? "lg:grid-cols-3"
+                : "lg:grid-cols-2",
+            )}
+          >
+            {images.image1 && (
+              <div class="aspect-[3/2] overflow-hidden rounded-lg shadow-md bg-black">
+                <Image
+                  src={images.image1}
+                  alt={`${name} screenshot 1`}
+                  width={600}
+                  height={400}
+                  class="w-full h-full object-contain hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+            )}
+            {images.image2 && (
+              <div class="aspect-[3/2] overflow-hidden rounded-lg shadow-md bg-black">
+                <Image
+                  src={images.image2}
+                  alt={`${name} screenshot 2`}
+                  width={300}
+                  height={200}
+                  class="w-full h-full object-contain hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+            )}
+            {images.image3 && (
+              <div class="aspect-[3/2] overflow-hidden rounded-lg shadow-md bg-black">
+                <Image
+                  src={images.image3}
+                  alt={`${name} screenshot 3`}
+                  width={300}
+                  height={200}
+                  class="w-full h-full object-contain hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+            )}
+          </div>
+        </>
+      )
+    }
+
     <br />
     <div class="flex gap-2">
       {
