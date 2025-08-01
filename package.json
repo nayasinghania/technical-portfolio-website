@@ -23,7 +23,7 @@
     "astro": "^5.7.10",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
-    "dotenv": "^16.4.7",
+    "dotenv": "^17.2.1",
     "framer-motion": "^11.15.0",
     "lucide-react": "^0.503.0",
     "react": "19.0.0",
