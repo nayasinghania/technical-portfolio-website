@@ -29,17 +29,17 @@ Want to create your own website from this template? Click `Use this template` to
 
 Once you've copied the code via the use template button and cloned your copy of the template locally, you can get started by running `npm install`. This will install the dependencies (you only need to do this once). Next, run `npm run dev` to start the dev server. Now, you can open the site locally and see the template with the example data in it!
 
-Now, you can edit the json files in src/content/data to customize the template with your own information. Make sure to update each file in src/content/data accordingly. Make sure to update the site's domain in `astro.config.mjs` to your website's domain as well.
+Now, you can edit the json files in `src/content/data` to customize the template with your own information. Make sure to update each file in `src/content/data` accordingly. Make sure to update the site's domain in `astro.config.mjs` to your website's domain as well.
 
 While these instructions just give you basic information on how to use the template, feel free to change any of the code to fit your needs! This template was made using Astro and React, so taking a look at their documentation may help!
 
-Please open an issue [here](https://github.com/raspberri05/website/issues) if you are having any trouble with using this repository as a template and I can help resolve the issue.
+Please open an issue [here](https://github.com/nayasinghania/website/issues) if you are having any trouble with using this repository as a template and I can help resolve the issue.
 
 ## Customizing or Removing the Background Gradient
 
 To change or remove the background gradient on this website:
 
-1. **Locate the Gradient Definition**: Go to `src/styles/globals/css`.
+1. **Locate the Gradient Definition**: Go to `src/styles/global/css`.
 
 2. **Modify the Gradient**:
    Adjust gradient colors by editing the hex values in the CSS where it says `linear-gradient`.
