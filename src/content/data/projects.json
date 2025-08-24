@@ -1,86 +1,86 @@
 {
-  "projects": [
-    {
-      "name": "Accuguide",
-      "description": "Accuguide is an open-source project designed to help people with disabilities find, review, and better understand the accessibility of public spaces. Users can search for and rate locations based on detailed accessibility indicators, such as wheelchair access, sensory-friendly environments, and more, making it easier for others to navigate the world with confidence.",
-      "description2": "Powered by industry-standard technologies like Next.js, React, TypeScript, and PostgreSQL, Accuguide offers a fast and modern user experience. We’re also integrating AI capabilities, such as generative AI for sentiment and image analysis, to automatically extract accessibility insights and generate comprehensive summaries of each location. ",
-      "description3": "As someone with a disability myself, I’ve seen firsthand the need for tools like this. Accuguide is not only a personal passion project but also a step toward creating a more accessible world. By making the platform open source, I hope to invite contributions from developers, designers, and advocates alike, fostering a strong community around accessibility and inclusive tech.",
-      "link": "https://github.com/accuguide/accuguide",
-      "langs": "TypeScript,JavaScript,Python-Dark,HTML,CSS,PostgreSQL-Dark",
-      "tools": "NextJS-Dark,React-Dark,Supabase-Dark,TailwindCSS-Dark,FastAPI,Docker,Cypress-Dark",
-      "other": "GCP-Dark,AWS-Dark,Cloudflare-Dark,Netlify-Dark",
-      "date": "Dec 2024 - Present",
-      "images": {
-        "image1": "/images/projects/accuguide/landing.png",
-        "image2": "/images/projects/accuguide/reviews.png",
-        "image3": "/images/projects/accuguide/sign-in.png"
-      },
-      "custom": {
-        "text": "View live site",
-        "link": "https://accuguide.org/"
-      }
-    },
-    {
-      "name": "Spartan Score",
-      "description": "Spartan Score is a web app for SJSU students to be able to easily calculate their current GPA and see how their grades will affect their GPA in the future. It is a simple, yet effective tool that I created to help students like myself who want to keep track of their academic performance. The app is built with Next.js and has multiple AI-powered features coming soon.",
-      "link": "https://github.com/nayasinghania/spartan-score",
-      "langs": "TypeScript,JavaScript,HTML,CSS",
-      "tools": "NextJS-Dark,React-Dark,TailwindCSS-Dark",
-      "date": "Jan 2025 - Present",
-      "images": {
-        "image1": "/images/projects/spartan-score/landing.png",
-        "image2": "/images/projects/spartan-score/result.png"
-      },
-      "custom": {
-        "text": "View live site",
-        "link": "https://spartan-score.netlify.app/"
-      }
-    },
-    {
-      "name": "Scrobble Quiz",
-      "description": "Test your music knowledge based on your Last.fm (music service) history! This project uses both traditional ML and generative AI to generate relevant quiz questions for the user. I am hoping to add support for other music services in the future as well, as well as refining ML pipelining and AI prompting to create various levels of questions!",
-      "link": "https://github.com/nayasinghania/scrobble-quiz",
-      "langs": "TypeScript,JavaScript,Python-Dark,HTML,CSS",
-      "tools": "NextJS-Dark,React-Dark,FastAPI,TailwindCSS-Dark",
-      "date": "Feb 2025 - Present",
-      "images": {
-        "image1": "/images/projects/scrobble-quiz/landing.png",
-        "image2": "/images/projects/scrobble-quiz/results.png"
-      },
-      "custom": {
-        "text": "View live site",
-        "link": "https://scrobble-quiz.netlify.app"
-      }
-    },
-    {
-      "name": "Website",
-      "description": "My personal website (the one you are currently on) that utilizes Astro with Tailwind CSS, with some CSS animations as well. I maintain this as an open source project to help developers easily get started with making their own portfolio websites.",
-      "link": "https://github.com/nayasinghania/website",
-      "langs": "TypeScript,JavaScript,HTML,CSS",
-      "tools": "Astro,React-Dark,TailwindCSS-Dark",
-      "date": "Jan 2022 - Present",
-      "images": {
-        "image1": "/images/projects/website/landing.png",
-        "image2": "/images/projects/website/projects.png"
-      }
-    },
+	"projects": [
+		{
+			"name": "Accuguide",
+			"description": "Accuguide is an open-source project designed to help people with disabilities find, review, and better understand the accessibility of public spaces. Users can search for and rate locations based on detailed accessibility indicators, such as wheelchair access, sensory-friendly environments, and more, making it easier for others to navigate the world with confidence.",
+			"description2": "Powered by industry-standard technologies like Next.js, React, TypeScript, and PostgreSQL, Accuguide offers a fast and modern user experience. We’re also integrating AI capabilities, such as generative AI for sentiment and image analysis, to automatically extract accessibility insights and generate comprehensive summaries of each location. ",
+			"description3": "As someone with a disability myself, I’ve seen firsthand the need for tools like this. Accuguide is not only a personal passion project but also a step toward creating a more accessible world. By making the platform open source, I hope to invite contributions from developers, designers, and advocates alike, fostering a strong community around accessibility and inclusive tech.",
+			"link": "https://github.com/accuguide/accuguide",
+			"langs": "TypeScript,JavaScript,Python-Dark,HTML,CSS,PostgreSQL-Dark",
+			"tools": "NextJS-Dark,React-Dark,Supabase-Dark,TailwindCSS-Dark,FastAPI,Docker,Cypress-Dark",
+			"other": "GCP-Dark,AWS-Dark,Cloudflare-Dark,Netlify-Dark",
+			"date": "Dec 2024 - Present",
+			"images": {
+				"image1": "/images/projects/accuguide/landing.png",
+				"image2": "/images/projects/accuguide/reviews.png",
+				"image3": "/images/projects/accuguide/sign-in.png"
+			},
+			"custom": {
+				"text": "View live site",
+				"link": "https://accuguide.org/"
+			}
+		},
+		{
+			"name": "Spartan Score",
+			"description": "Spartan Score is a web app for SJSU students to be able to easily calculate their current GPA and see how their grades will affect their GPA in the future. It is a simple, yet effective tool that I created to help students like myself who want to keep track of their academic performance. The app is built with Next.js and has multiple AI-powered features coming soon.",
+			"link": "https://github.com/nayasinghania/spartan-score",
+			"langs": "TypeScript,JavaScript,HTML,CSS",
+			"tools": "NextJS-Dark,React-Dark,TailwindCSS-Dark",
+			"date": "Jan 2025 - Present",
+			"images": {
+				"image1": "/images/projects/spartan-score/landing.png",
+				"image2": "/images/projects/spartan-score/result.png"
+			},
+			"custom": {
+				"text": "View live site",
+				"link": "https://spartan-score.netlify.app/"
+			}
+		},
+		{
+			"name": "Scrobble Quiz",
+			"description": "Test your music knowledge based on your Last.fm (music service) history! This project uses both traditional ML and generative AI to generate relevant quiz questions for the user. I am hoping to add support for other music services in the future as well, as well as refining ML pipelining and AI prompting to create various levels of questions!",
+			"link": "https://github.com/nayasinghania/scrobble-quiz",
+			"langs": "TypeScript,JavaScript,Python-Dark,HTML,CSS",
+			"tools": "NextJS-Dark,React-Dark,FastAPI,TailwindCSS-Dark",
+			"date": "Feb 2025 - Present",
+			"images": {
+				"image1": "/images/projects/scrobble-quiz/landing.png",
+				"image2": "/images/projects/scrobble-quiz/results.png"
+			},
+			"custom": {
+				"text": "View live site",
+				"link": "https://scrobble-quiz.netlify.app"
+			}
+		},
+		{
+			"name": "Website",
+			"description": "My personal website (the one you are currently on) that utilizes Astro with Tailwind CSS, with some CSS animations as well. I maintain this as an open source project to help developers easily get started with making their own portfolio websites.",
+			"link": "https://github.com/nayasinghania/website",
+			"langs": "TypeScript,JavaScript,HTML,CSS",
+			"tools": "Astro,React-Dark,TailwindCSS-Dark",
+			"date": "Jan 2022 - Present",
+			"images": {
+				"image1": "/images/projects/website/landing.png",
+				"image2": "/images/projects/website/projects.png"
+			}
+		},
 
-    {
-      "name": "Persona.fm",
-      "description": "A full stack Next.js application that uses the Last.FM API to show users snapshots of their listening habits. This project uses OpenAI's 4o mini model to generate information about a user's listening history on Last.fm for the last 7 days, and utilizes a PostgreSQL database via Supabase to allow users to store their data.",
-      "link": "https://github.com/nayasinghania/persona.fm",
-      "langs": "TypeScript,JavaScript,HTML,CSS,PostgreSQL-Dark",
-      "tools": "NextJS-Dark,React-Dark,Supabase-Dark,TailwindCSS-Dark",
-      "date": "June 2024 - Dec 2024"
-    },
+		{
+			"name": "Persona.fm",
+			"description": "A full stack Next.js application that uses the Last.FM API to show users snapshots of their listening habits. This project uses OpenAI's 4o mini model to generate information about a user's listening history on Last.fm for the last 7 days, and utilizes a PostgreSQL database via Supabase to allow users to store their data.",
+			"link": "https://github.com/nayasinghania/persona.fm",
+			"langs": "TypeScript,JavaScript,HTML,CSS,PostgreSQL-Dark",
+			"tools": "NextJS-Dark,React-Dark,Supabase-Dark,TailwindCSS-Dark",
+			"date": "June 2024 - Dec 2024"
+		},
 
-    {
-      "name": "ChairSense",
-      "description": "For wheelchair users, it can be hard to see what's behind the chair, especially when backing up or turning, which can be dangerous because there is a high potential to hit an object or person. With this project, I prototyped a low cost device that can detect obstacles and warn the user so they do not hit objects or people. I used an Arduino board as well as some sensors to achieve over 90% accuracy with a cost of only about $50 per unit, which is far cheaper than any similar devices currently available.",
-      "link": "https://github.com/nayasinghania/chairSense",
-      "langs": "CPP",
-      "tools": "Arduino",
-      "date": "Sep 2021 - Dec 2021"
-    }
-  ]
+		{
+			"name": "ChairSense",
+			"description": "For wheelchair users, it can be hard to see what's behind the chair, especially when backing up or turning, which can be dangerous because there is a high potential to hit an object or person. With this project, I prototyped a low cost device that can detect obstacles and warn the user so they do not hit objects or people. I used an Arduino board as well as some sensors to achieve over 90% accuracy with a cost of only about $50 per unit, which is far cheaper than any similar devices currently available.",
+			"link": "https://github.com/nayasinghania/chairSense",
+			"langs": "CPP",
+			"tools": "Arduino",
+			"date": "Sep 2021 - Dec 2021"
+		}
+	]
 }

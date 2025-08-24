@@ -1,23 +1,22 @@
 // @ts-check
-import { defineConfig } from "astro/config";
 
 import react from "@astrojs/react";
-
-import tailwind from "@astrojs/tailwind";
-
 import sitemap from "@astrojs/sitemap";
+import tailwindcss from "@tailwindcss/vite";
+import { defineConfig } from "astro/config";
 
 export default defineConfig({
-  // change the 'site' value to your site's domain
-  site: "https://nayasinghania.com",
-  image: {
-    domains: ["raw.githubusercontent.com"],
-  },
-  integrations: [
-    react(),
-    tailwind({
-      applyBaseStyles: false,
-    }),
-    sitemap(),
-  ],
+	// change the 'site' value to your site's domain
+	site: "https://nayasinghania.com",
+
+	image: {
+		domains: ["raw.githubusercontent.com"],
+	},
+
+	integrations: [react(), sitemap()],
+
+	vite: {
+		// @ts-expect-error
+		plugins: [tailwindcss()],
+	},
 });
