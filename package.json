@@ -22,7 +22,7 @@
 		"astro": "^5.13.3",
 		"class-variance-authority": "^0.7.0",
 		"clsx": "^2.1.1",
-		"framer-motion": "^11.15.0",
+		"framer-motion": "^12.23.12",
 		"lucide-react": "^0.503.0",
 		"react": "19.0.0",
 		"react-dom": "19.0.0",
