@@ -28,8 +28,14 @@ All website content is stored at `src/lib/data.ts`. Once you copy this as a temp
 
 ### Sections
 
+#### Header
+Header links can be easily customized. The light/dark mode toggle is in the header, but can by moved by removing the `ModeToggle` component from `src/components/header.tsx` and putting it in your desired location.
+
+#### Footer
+Footer social links can be specified in `src/lib/data.ts`.
+
 #### Hero
-The hero has first, middle (optional) and last name and a header/tagline
+The hero has first, middle (optional) and last name and a header/tagline.
 
 #### About
 The about page has a portrait image and an about me text.
