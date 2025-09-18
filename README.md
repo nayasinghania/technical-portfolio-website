@@ -1,6 +1,6 @@
 # Minimal Technical Personal Website and Portfolio
 
-This is a minimal technical personal website and portfolio Next.js template!. You can click `Use As Template` in the top right hand of this page to create your own website with this as a starting point.
+This is a minimal technical personal website and portfolio Next.js template!. You can click `Use this template` in the top right hand of this page to create your own website with this as a starting point.
 
 ## Features
 - Next.js
