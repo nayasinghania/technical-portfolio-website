@@ -2,16 +2,17 @@
 
 This is a minimal technical personal website and portfolio Next.js template!. You can click `Use this template` in the top right hand of this page to create your own website with this as a starting point. Please remove existing content (specified in `src/lib/data.ts` and add your own content before deploying it anywhere).
 
-## Tech Stack
-- Next.js
-- Tailwind CSS
-- Shadcn UI
-
 ## Features
 - Modular design
 - Easily customizable
 - Light and dark mode
 - Perfect Pagespeed Insights score
+
+## Tech Stack
+*This project uses Bun. If you want to use NPM instead of Bun, use `npm` instead of `bun` in the setup steps below*
+- Next.js
+- Tailwind CSS
+- Shadcn UI
 
 ## Setup
 1. `bun install`
