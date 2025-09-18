@@ -8,6 +8,7 @@ This is a minimal technical personal website and portfolio Next.js template! You
 - Modular design
 - Easily customizable
 - Light and dark mode
+- Glass-like styling
 - Responsive (looks good on desktop and mobile)
 - Perfect Pagespeed Insights score
 
