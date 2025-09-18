@@ -6,7 +6,7 @@ This is a minimal technical personal website and portfolio Next.js template!. Yo
 - Next.js
 - Tailwind CSS
 - Shadcn UI
-- 
+
 ## Features
 - Modular design
 - Easily customizable
