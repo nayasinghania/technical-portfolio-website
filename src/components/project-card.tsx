@@ -18,7 +18,7 @@ export default function ProjectCard({
   images,
 }: Project) {
   return (
-    <Card className="bg-muted-foreground text-background border-0">
+    <Card className="bg-black/25 dark:bg-white/25 text-background border-0">
       <CardHeader>
         <CardTitle>{title}</CardTitle>
         <CardDescription className="text-background">{dates}</CardDescription>

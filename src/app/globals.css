@@ -138,7 +138,7 @@
     @apply text-2xl;
   }
   .header {
-    @apply p-4 bg-muted-foreground text-background rounded-lg;
+    @apply p-4 bg-black/25 dark:bg-white/25 text-black dark:text-white rounded-lg;
   }
   .footer-links {
     @apply flex justify-center gap-4 font-bold;
