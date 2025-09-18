@@ -1,5 +1,5 @@
-import { About, HeaderLinks, Projects, SocialLinks } from "@/lib/types";
 import { GitHubLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
+import type { About, HeaderLinks, Projects, SocialLinks } from "@/lib/types";
 
 export const projects: Projects = [
   {

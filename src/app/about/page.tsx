@@ -1,6 +1,6 @@
+import Image from "next/image";
 import Title from "@/components/title";
 import { about } from "@/lib/data";
-import Image from "next/image";
 
 export default function About() {
   return (
@@ -13,8 +13,8 @@ export default function About() {
         height={200}
         className="rounded-lg mb-4"
       />
-      {about.description.map((paragraph: string, idx: number) => (
-        <p key={idx} style={{ marginBottom: "1em" }}>
+      {about.description.map((paragraph: string) => (
+        <p key={paragraph} style={{ marginBottom: "1em" }}>
           {paragraph}
         </p>
       ))}

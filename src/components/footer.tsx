@@ -10,6 +10,7 @@ export default function Footer() {
             href={link.link}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label={`${link.name} Link`}
           >
             <link.icon width={32} height={32} />
           </a>

@@ -1,13 +1,13 @@
-import { Project } from "@/lib/types";
+import Image from "next/image";
 import {
   Card,
-  CardAction,
   CardContent,
   CardDescription,
   CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import type { Project } from "@/lib/types";
 
 export default function ProjectCard({
   title,
@@ -36,9 +36,11 @@ export default function ProjectCard({
                 key={image}
                 className="aspect-3/2 overflow-hidden rounded-lg shadow-md bg-black"
               >
-                <img
+                <Image
                   src={image}
                   alt={title}
+                  width={400}
+                  height={300}
                   className="w-full h-full object-contain hover:scale-105 transition-transform duration-300"
                 />
               </div>

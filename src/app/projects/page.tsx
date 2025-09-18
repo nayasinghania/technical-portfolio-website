@@ -1,6 +1,6 @@
-import { projects } from "@/lib/data";
 import ProjectCard from "@/components/project-card";
 import Title from "@/components/title";
+import { projects } from "@/lib/data";
 
 export default function Projects() {
   return (

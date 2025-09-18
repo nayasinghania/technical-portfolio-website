@@ -1,5 +1,5 @@
-import { IconProps } from "@radix-ui/react-icons/dist/types";
-import { ForwardRefExoticComponent, RefAttributes } from "react";
+import type { IconProps } from "@radix-ui/react-icons/dist/types";
+import type { ForwardRefExoticComponent, RefAttributes } from "react";
 
 export type Project = {
   title: string;
