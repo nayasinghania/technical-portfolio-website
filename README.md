@@ -8,6 +8,7 @@ This is a minimal technical personal website and portfolio Next.js template! You
 - Modular design
 - Easily customizable
 - Light and dark mode
+- Responsive (looks good on desktop and mobile)
 - Perfect Pagespeed Insights score
 
 ## Tech Stack
@@ -18,11 +19,11 @@ This is a minimal technical personal website and portfolio Next.js template! You
 
 ## Setup
 1. `bun install`
-2. `bun run dev`
+2. `bun dev`
 3. Open `http://localhost:3000`
 
 ## Customization
-All website content is stored at `src/lib/data/ts`. Once you copy this as a template, you can put your own information in. In the future there will be even more customization options. Most styling is in `src/app/globals/css`, so feel free to customize it to your needs! Feel free to open an issue if you find any issues or need any help! Any requirements below can be removed, just ensure to update `src/lib/types.ts` and conditonally render content as neccessary. This is meant to be a starter template, so you can customize and/or change it in any way you want!
+All website content is stored at `src/lib/data/ts`. Once you copy this as a template, you can put your own information in. In the future there will be even more customization options. All custom styling is in `src/app/globals/css`, so feel free to customize it to your needs! Feel free to open an issue if you find any issues or need any help! Any parts below can be removed, just ensure to update `src/lib/types.ts` and conditonally render content as neccessary. This is meant to be a starter template, so you can customize and/or change it in any way you want!
 
 ### Sections
 

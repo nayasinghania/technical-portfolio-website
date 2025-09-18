@@ -3,11 +3,12 @@ import type * as React from "react";
 import { cn } from "@/lib/utils";
 
 function Card({ className, ...props }: React.ComponentProps<"div">) {
+  // bg-card text-card-foreground border
   return (
     <div
       data-slot="card"
       className={cn(
-        "bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py-6 shadow-sm",
+        "card flex flex-col gap-6 rounded-xl py-6 shadow-sm",
         className,
       )}
       {...props}
@@ -39,10 +40,11 @@ function CardTitle({ className, ...props }: React.ComponentProps<"div">) {
 }
 
 function CardDescription({ className, ...props }: React.ComponentProps<"div">) {
+  // text-muted-foreground
   return (
     <div
       data-slot="card-description"
-      className={cn("text-muted-foreground text-sm", className)}
+      className={cn("card-description text-sm", className)}
       {...props}
     />
   );

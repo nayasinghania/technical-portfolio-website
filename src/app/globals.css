@@ -120,13 +120,22 @@
     @apply bg-background text-foreground;
   }
   .main-layout {
-    @apply min-h-[75vh] m-4;
+    @apply min-h-[75vh] sm:m-4;
   }
   .gradient {
-    @apply p-4 my-4 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg;
+    @apply p-4 sm:my-4 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 sm:rounded-lg;
   }
   h1 {
     @apply text-5xl font-bold;
+  }
+  a {
+    @apply font-bold;
+  }
+  .footer {
+    @apply p-4 bg-black/25 dark:bg-white/25 text-black dark:text-white sm:rounded-lg flex items-center justify-between px-4 py-4;
+  }
+  .footer-links {
+    @apply flex flex-1 gap-4 font-bold;
   }
   .title {
     @apply text-4xl mb-4 text-background;
@@ -138,11 +147,12 @@
     @apply text-2xl;
   }
   .header {
-    @apply p-4 bg-black/25 dark:bg-white/25 text-black dark:text-white rounded-lg;
+    @apply p-4 bg-black/25 dark:bg-white/25 text-black dark:text-white sm:rounded-lg flex items-center justify-between px-4 py-2;
   }
-  .footer-links {
-    @apply flex justify-center gap-4 font-bold;
+  .header-links {
+    @apply flex-1 flex font-bold;
   }
+
   .projects {
     @apply flex flex-col gap-4;
   }
@@ -150,9 +160,30 @@
     @apply fixed bottom-4 right-4;
   }
   .copyright {
-    @apply text-xs text-center mt-4;
+    @apply text-xs text-center font-bold;
   }
   .button {
-    @apply bg-foreground text-background;
+    @apply bg-background text-foreground font-semibold text-base hover:bg-background/25;
+  }
+  .card {
+    @apply bg-foreground/25 text-background border-0;
+  }
+  .card-description {
+    @apply text-background;
+  }
+  .portrait {
+    @apply rounded-lg mb-4;
+  }
+  .project-image {
+    @apply w-full h-full object-contain hover:scale-105 transition-transform duration-300;
+  }
+  .project-image-container {
+    @apply aspect-3/2 overflow-hidden rounded-lg shadow-md bg-black;
+  }
+  .project-images-container {
+    @apply grid grid-cols-1 md:grid-cols-2 gap-2 mb-4 lg:grid-cols-3;
+  }
+  .paragraph {
+    @apply mb-2;
   }
 }

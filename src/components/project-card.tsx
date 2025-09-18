@@ -8,6 +8,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import type { Project } from "@/lib/types";
+import { Button } from "./ui/button";
 
 export default function ProjectCard({
   title,
@@ -18,30 +19,27 @@ export default function ProjectCard({
   images,
 }: Project) {
   return (
-    <Card className="bg-black/25 dark:bg-white/25 text-background border-0">
+    <Card>
       <CardHeader>
         <CardTitle>{title}</CardTitle>
-        <CardDescription className="text-background">{dates}</CardDescription>
+        <CardDescription>{dates}</CardDescription>
       </CardHeader>
       <CardContent>
         {description.map((paragraph) => (
-          <p key={paragraph} style={{ marginBottom: "1em" }}>
+          <p key={paragraph} className="paragraph">
             {paragraph}
           </p>
         ))}
         {images && (
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mb-4 lg:grid-cols-3">
+          <div className="project-images-container">
             {images.map((image) => (
-              <div
-                key={image}
-                className="aspect-3/2 overflow-hidden rounded-lg shadow-md bg-black"
-              >
+              <div key={image} className="project-image-container">
                 <Image
                   src={image}
                   alt={title}
                   width={400}
                   height={300}
-                  className="w-full h-full object-contain hover:scale-105 transition-transform duration-300"
+                  className="project-image"
                 />
               </div>
             ))}
@@ -49,8 +47,21 @@ export default function ProjectCard({
         )}
       </CardContent>
       <CardFooter>
-        <p>{github}</p>
-        {link && <p>{link}</p>}
+        {github && (
+          <Button asChild>
+            <a href={github} target="_blank" rel="noopener noreferrer">
+              GitHub
+            </a>
+          </Button>
+        )}
+        <div className="w-2"></div>
+        {link && (
+          <Button asChild>
+            <a href={link} target="_blank" rel="noopener noreferrer">
+              Live Demo
+            </a>
+          </Button>
+        )}
       </CardFooter>
     </Card>
   );

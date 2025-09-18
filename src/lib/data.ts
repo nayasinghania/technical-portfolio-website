@@ -15,7 +15,8 @@ export const projects: Projects = [
       "/projects/accuguide/reviews.png",
       "/projects/accuguide/sign-in.png",
     ],
-    github: "",
+    github: "https://github.com/accuguide/accuguide",
+    link: "https://accuguide.org",
   },
   {
     title: "Spartan Score",
@@ -28,7 +29,8 @@ export const projects: Projects = [
       "/projects/spartan-score/landing.png",
       "/projects/spartan-score/result.png",
     ],
-    github: "",
+    github: "https://github.com/accuguide/accuguide",
+    link: "https://accuguide.org",
   },
   {
     title: "Scrobble Quiz",
@@ -41,17 +43,19 @@ export const projects: Projects = [
       "/projects/scrobble-quiz/landing.png",
       "/projects/scrobble-quiz/results.png",
     ],
-    github: "",
+    github: "https://github.com/nayasinghania/scrobble-quiz",
+    link: "https://scrobble-quiz.netlify.app",
   },
   {
-    title: "Website",
+    title: "Technical Portfolio Website",
     dates: "Jan 2022 - Present",
     description: [
       "My personal website (the one you are currently on) that utilizes Astro with Tailwind CSS, with some CSS animations as well.",
       "I maintain this as an open source project to help developers easily get started with making their own portfolio websites.",
     ],
     images: ["/projects/website/landing.png", "/projects/website/projects.png"],
-    github: "",
+    github: "https://github.com/nayasinghania/technical-portfolio-website",
+    link: "https://nayasinghania.com",
   },
   {
     title: "Persona.fm",
@@ -60,7 +64,7 @@ export const projects: Projects = [
       "A full stack Next.js application that uses the Last.FM API to show users snapshots of their listening habits.",
       "This project uses OpenAI's 4o mini model to generate information about a user's listening history on Last.fm for the last 7 days, and utilizes a PostgreSQL database via Supabase to allow users to store their data.",
     ],
-    github: "",
+    github: "https://github.com/nayasinghania/persona.fm",
   },
   {
     title: "ChairSense",
@@ -70,7 +74,7 @@ export const projects: Projects = [
       "With this project, I prototyped a low cost device that can detect obstacles and warn the user so they do not hit objects or people.",
       "I used an Arduino board as well as some sensors to achieve over 90% accuracy with a cost of only about $50 per unit, which is far cheaper than any similar devices currently available.",
     ],
-    github: "",
+    github: "https://github.com/nayasinghania/chairsense",
   },
 ];
 

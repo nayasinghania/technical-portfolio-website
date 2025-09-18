@@ -8,10 +8,7 @@ export default function Home() {
         {about.name.first} {about.name.middle} {about.name.last}
       </h1>
       <h2 className="tagline">{about.header}</h2>
-      <Button
-        className="bg-background text-foreground font-bold text-lg"
-        size="lg"
-      >
+      <Button size="lg">
         <a href="/about">About Me</a>
       </Button>
     </div>

@@ -2,7 +2,7 @@ import { socialLinks } from "@/lib/data";
 
 export default function Footer() {
   return (
-    <footer className="header">
+    <footer className="footer">
       <div className="footer-links">
         {socialLinks.map((link) => (
           <a
@@ -12,7 +12,7 @@ export default function Footer() {
             rel="noopener noreferrer"
             aria-label={`${link.name} Link`}
           >
-            <link.icon width={32} height={32} />
+            <link.icon width={32} height={32} className="my-0" />
           </a>
         ))}
       </div>
