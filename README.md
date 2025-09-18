@@ -1,8 +1,11 @@
-# Minimal Modular Personal Website and Portfolio Template
+# Minimal Technical Personal Website and Portfolio
 
-This is a filled in minimal modular personal website and portfolio template. You can click `Use As Template` in the top right hand of this page to create your own website with this as a starting point
+This is a minimal technical personal website and portfolio Next.js template!. You can click `Use As Template` in the top right hand of this page to create your own website with this as a starting point.
 
 ## Features
+- Next.js
+- Tailwind CSS
+- Shadcn UI
 - Modular design
 - Easily customizable
 - Light and dark mode
