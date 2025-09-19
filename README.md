@@ -43,6 +43,9 @@ The about page has a portrait image and an about me text.
 #### Projects
 The fields for a project are name, dates, description, Github link, and hosted project link (optional).
 
+#### Animation
+The only animation is there side scroll effect that displays the tagline on the homepage. If you would like to remove this animation, you can remove all the css properties related to the animation within the `.tagline` tag in `src/app/globals.css`.
+
 ### Styling
 As previously mentioned, most custom styling is in `src/app/globals.css`. Some styling may be in the component or page files themselves. Please note that `src/components/ui` contains components directly from Shadcn UI. These most likely do not need to be edited to customize styling.
 
