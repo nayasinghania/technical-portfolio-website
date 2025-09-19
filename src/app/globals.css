@@ -148,7 +148,7 @@
     overflow: hidden;
     white-space: nowrap;
     display: inline-block;
-    animation: typewriter 4s linear 1;
+    animation: typewriter 6s linear 1;
   }
   @keyframes typewriter {
     from {
