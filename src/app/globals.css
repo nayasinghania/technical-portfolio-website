@@ -145,6 +145,18 @@
   }
   .tagline {
     @apply text-2xl font-semibold;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    animation: typewriter 4s linear 1;
+  }
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
   }
   .header {
     @apply p-4 bg-black/25 dark:bg-white/25 text-black dark:text-white sm:rounded-lg flex items-center justify-between px-4 py-2;
