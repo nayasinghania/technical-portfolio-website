@@ -1,7 +1,15 @@
 {
-  "name": "website",
+  "name": "technical-portfolio-website",
   "version": "1.0.0",
-  "private": true,
+  "description": "A technical portfolio website template built with Next.js and Tailwind CSS.",
+  "template": true,
+  "author": "Naya Singhania",
+  "keywords": [
+    "bun",
+    "nextjs",
+    "template",
+    "portfolio"
+  ],
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
