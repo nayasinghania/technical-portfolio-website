@@ -1,28 +1,15 @@
-import Image from "next/image";
+import Introduction from "@/components/about/introduction";
+import Skills from "@/components/about/skills";
+import Separator from "@/components/separator";
 import Title from "@/components/title";
-import { Card, CardContent } from "@/components/ui/card";
-import { about } from "@/lib/data";
 
 export default function About() {
   return (
     <div>
       <Title>About Me</Title>
-      <Card>
-        <CardContent>
-          <Image
-            src="/portrait.jpg"
-            alt="Profile Picture"
-            width={200}
-            height={200}
-            className="portrait"
-          />
-          {about.description.map((paragraph: string) => (
-            <p key={paragraph} className="paragraph">
-              {paragraph}
-            </p>
-          ))}
-        </CardContent>
-      </Card>
+      <Introduction />
+      <Separator />
+      <Skills />
     </div>
   );
 }

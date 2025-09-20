@@ -31,8 +31,15 @@ export type HeaderLink = {
   path: string;
 };
 
+export type Skill = {
+  type: string;
+  list: string[];
+};
+
 export type Projects = Project[];
 
 export type SocialLinks = SocialLink[];
 
 export type HeaderLinks = HeaderLink[];
+
+export type Skills = Skill[];

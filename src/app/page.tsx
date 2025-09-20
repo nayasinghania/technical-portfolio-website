@@ -1,16 +1,13 @@
-import { Button } from "@/components/ui/button";
-import { about } from "@/lib/data";
+import AboutButton from "@/components/home/about-button";
+import Name from "@/components/home/name";
+import Tagline from "@/components/home/tagline";
 
 export default function Home() {
   return (
     <div className="hero">
-      <h1>
-        {about.name.first} {about.name.middle} {about.name.last}
-      </h1>
-      <h2 className="tagline">{about.header}</h2>
-      <Button size="lg">
-        <a href="/about">About Me</a>
-      </Button>
+      <Name />
+      <Tagline />
+      <AboutButton />
     </div>
   );
 }

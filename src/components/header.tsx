@@ -1,5 +1,5 @@
+import { ModeToggle } from "@/components/theme/mode-toggle";
 import { headerLinks } from "@/lib/data";
-import { ModeToggle } from "./mode-toggle";
 
 export default function Header() {
   return (

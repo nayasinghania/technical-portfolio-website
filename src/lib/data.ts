@@ -109,3 +109,35 @@ export const socialLinks: SocialLinks = [
     icon: LinkedInLogoIcon,
   },
 ];
+
+export const skills = [
+  {
+    type: "Programming Languages",
+    list: ["TypeScript", "JavaScript", "Python", "SQL", "Java", "HTML", "CSS"],
+  },
+  {
+    type: "Frameworks and Libraries",
+    list: ["Next.js", "React", "Tailwind CSS", "FastAPI", "Astro", "Vite"],
+  },
+  {
+    type: "Databases",
+    list: ["PostgreSQL", "MongoDB", "DynamoDB", "Drizzle (ORM)"],
+  },
+  {
+    type: "ML/AI",
+    list: ["LLM Pipelines", "ML Models (Logistic Regression, Classification)"],
+  },
+  {
+    type: "Cloud, DevOps, and Tools",
+    list: [
+      "AWS (S3, Cognito)",
+      "GCP",
+      "Docker",
+      "Figma",
+      "CI/CD",
+      "Linux",
+      "Jupyter",
+      "Git",
+    ],
+  },
+];

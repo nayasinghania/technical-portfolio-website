@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Button } from "@/components/ui/button";
 import {
   Card,
   CardContent,
@@ -8,7 +9,6 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import type { Project } from "@/lib/types";
-import { Button } from "./ui/button";
 
 export default function ProjectCard({
   title,
