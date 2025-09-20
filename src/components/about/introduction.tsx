@@ -7,7 +7,7 @@ export default function Introduction() {
     <Card>
       <CardContent>
         <Image
-          src="/portrait.jpg"
+          src={about.image}
           alt="Profile Picture"
           width={200}
           height={200}

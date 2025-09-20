@@ -1,4 +1,4 @@
-import { socialLinks } from "@/lib/data";
+import { about, socialLinks } from "@/lib/data";
 
 export default function Footer() {
   return (
@@ -16,7 +16,9 @@ export default function Footer() {
           </a>
         ))}
       </div>
-      <p className="copyright">Copyright 2025 Naya Singhania</p>
+      <p className="copyright">
+        Copyright 2025 {about.name.first} {about.name.last}
+      </p>
     </footer>
   );
 }

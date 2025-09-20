@@ -5,7 +5,7 @@ export type Project = {
   title: string;
   dates: string;
   description: string[];
-  github: string;
+  github?: string;
   link?: string;
   images?: string[];
 };
@@ -24,6 +24,7 @@ export type About = {
   };
   header: string;
   description: string[];
+  image: string;
 };
 
 export type HeaderLink = {

@@ -1,94 +1,51 @@
-import { GitHubLogoIcon, LinkedInLogoIcon } from "@radix-ui/react-icons";
+import {
+  GitHubLogoIcon,
+  LinkedInLogoIcon,
+  TwitterLogoIcon,
+} from "@radix-ui/react-icons";
 import type { About, HeaderLinks, Projects, SocialLinks } from "@/lib/types";
 
 export const projects: Projects = [
   {
-    title: "Accuguide",
-    dates: "Dec 2024 - Present",
+    title: "Title1",
+    dates: "Month Year - Month Year",
     description: [
-      "Accuguide is an open-source project designed to help people with disabilities find, review, and better understand the accessibility of public spaces. Users can search for and rate locations based on detailed accessibility indicators, such as wheelchair access, sensory-friendly environments, and more, making it easier for others to navigate the world with confidence.",
-      "Powered by industry-standard technologies like Next.js, React, TypeScript, and PostgreSQL, Accuguide offers a fast and modern user experience. We’re also integrating AI capabilities, such as generative AI for sentiment and image analysis, to automatically extract accessibility insights and generate comprehensive summaries of each location.",
-      "As someone with a disability myself, I’ve seen firsthand the need for tools like this. Accuguide is not only a personal passion project but also a step toward creating a more accessible world. By making the platform open source, I hope to invite contributions from developers, designers, and advocates alike, fostering a strong community around accessibility and inclusive tech.",
+      "For each project, you should specify a title, the dates you worked on it, a description (a list of paragraphs), images (a list of image URLs), and optionally a GitHub link and/or a live link.",
+      "This is the second paragraph of this project description. You can add as many paragraphs as you want! Images will have a black border added around them to ensure each picture is the same size",
     ],
     images: [
-      "/projects/accuguide/landing.png",
-      "/projects/accuguide/reviews.png",
-      "/projects/accuguide/sign-in.png",
+      "/projects/title1/placeholder-1.jpeg",
+      "/projects/title1/placeholder-2.jpeg",
+      "/projects/title1/placeholder-3.jpeg",
     ],
-    github: "https://github.com/accuguide/accuguide",
-    link: "https://accuguide.org",
+    github: "https://github.com/username/repository",
+    link: "https://example.com",
   },
   {
-    title: "Spartan Score",
-    dates: "Jan 2025 - Present",
+    title: "Title2",
+    dates: "Month Year - Month Year",
     description: [
-      "Spartan Score is a web app for SJSU students to be able to easily calculate their current GPA and see how their grades will affect their GPA in the future.",
-      "It is a simple, yet effective tool that I created to help students like myself who want to keep track of their academic performance. The app is built with Next.js and has multiple AI-powered features coming soon.",
+      "You can add as many projects as you want! Each one is a separate entry in the Projects list in src/lib/data.ts",
+      "I reccomend a maximum of 3 images per project, as more than that can make the page very long. If you don't have a Github or live link, simply leave that field out and the buttons won't show up.",
     ],
     images: [
-      "/projects/spartan-score/landing.png",
-      "/projects/spartan-score/result.png",
+      "/projects/title2/placeholder-1.jpeg",
+      "/projects/title2/placeholder-2.jpeg",
     ],
-    github: "https://github.com/accuguide/accuguide",
-    link: "https://accuguide.org",
-  },
-  {
-    title: "Scrobble Quiz",
-    dates: "Feb 2025 - Present",
-    description: [
-      "Test your music knowledge based on your Last.fm (music service) history! This project uses both traditional ML and generative AI to generate relevant quiz questions for the user.",
-      "I am hoping to add support for other music services in the future as well, as well as refining ML pipelining and AI prompting to create various levels of questions!",
-    ],
-    images: [
-      "/projects/scrobble-quiz/landing.png",
-      "/projects/scrobble-quiz/results.png",
-    ],
-    github: "https://github.com/nayasinghania/scrobble-quiz",
-    link: "https://scrobble-quiz.netlify.app",
-  },
-  {
-    title: "Technical Portfolio Website",
-    dates: "Jan 2022 - Present",
-    description: [
-      "My personal website (the one you are currently on) that utilizes Astro with Tailwind CSS, with some CSS animations as well.",
-      "I maintain this as an open source project to help developers easily get started with making their own portfolio websites.",
-    ],
-    images: ["/projects/website/landing.png", "/projects/website/projects.png"],
-    github: "https://github.com/nayasinghania/technical-portfolio-website",
-    link: "https://nayasinghania.com",
-  },
-  {
-    title: "Persona.fm",
-    dates: "June 2024 - Dec 2024",
-    description: [
-      "A full stack Next.js application that uses the Last.FM API to show users snapshots of their listening habits.",
-      "This project uses OpenAI's 4o mini model to generate information about a user's listening history on Last.fm for the last 7 days, and utilizes a PostgreSQL database via Supabase to allow users to store their data.",
-    ],
-    github: "https://github.com/nayasinghania/persona.fm",
-  },
-  {
-    title: "ChairSense",
-    dates: "Sep 2021 - Dec 2021",
-    description: [
-      "For wheelchair users, it can be hard to see what's behind the chair, especially when backing up or turning, which can be dangerous because there is a high potential to hit an object or person.",
-      "With this project, I prototyped a low cost device that can detect obstacles and warn the user so they do not hit objects or people.",
-      "I used an Arduino board as well as some sensors to achieve over 90% accuracy with a cost of only about $50 per unit, which is far cheaper than any similar devices currently available.",
-    ],
-    github: "https://github.com/nayasinghania/chairsense",
   },
 ];
 
 export const about: About = {
   name: {
-    first: "Naya",
-    last: "Singhania",
+    first: "John",
+    last: "Doe",
   },
-  header: "CS @ SJSU | Fullstack + AI Dev | ML Engineer",
+  header: "A Short And Descriptive Tagline",
   description: [
-    "Hi, I'm Naya Singhania! I've been passionate about CS since I was 12, and that enthusiasm has driven me to explore various technologies and frameworks since then. I'm currently working towards a Computer Science degree as well as a Computational Linguistics certificate at SJSU, where I've deepened my understanding of CS fundamentals and honed my skills in Next.js and React. I mainly create dynamic fullstack applications with AI integration and seamless user experiences, and I'm always eager to learn and adapt to new challenges.",
-    "In addition to my development work, I have a deep interest in AI and using it in production apps. For instance, I am developing a full-stack application that allows users to find and rate locations based on accessibility features that uses AI to get users the info they need. As someone who has a disability I hope that this project will help make life more accessible for those with disabilities. I also developed ChairSense, a project that utilizes various sensors and a microcontroller to implement obstacle detection on wheelchairs, showcasing my commitment to leveraging technology for accessibility. Beyond my own projects, I ensure to support the open source community with open source contributions, and I am passionate about choir and producing music, where I express my creativity and connect with others.",
-    "As I continue my journey in tech, I'm actively seeking internship opportunities that will allow me to further develop my skills and gain hands-on experience. If you're looking for a dedicated and enthusiastic developer with a strong foundation in Fullstack + AI development and a passion for innovation, let's connect! I'm excited to collaborate and explore new possibilities in the tech world.",
+    "This page should include a brief introduction about your background, skills, interests, and goals. You can have multiple paragraphs if you want, just make sure to separate them into different strings in the description list. Above this text is a portrait image, whose path is specified in src/lib/data.ts (this is where all the site content is!). Having a professional-looking photo adds credibility to your portfolio.",
+    "Below this section is the skills section, which is a list of your relevant skills categorized by type. You can add or remove categories as needed to showcase your most relevant skills. The icon at the top right is to toggle between light and dark mode. In the footer, there are customizable social links on the left and a copyright notice on the right.",
   ],
+  image: "/placeholder-portrait.jpg",
 };
 
 export const headerLinks: HeaderLinks = [
@@ -100,44 +57,32 @@ export const headerLinks: HeaderLinks = [
 export const socialLinks: SocialLinks = [
   {
     name: "GitHub",
-    link: "https://github.com/nayasinghania",
+    link: "https://github.com/username/repository",
     icon: GitHubLogoIcon,
   },
   {
     name: "LinkedIn",
-    link: "https://linkedin.com/in/nayasinghania",
+    link: "https://linkedin.com/in/username",
     icon: LinkedInLogoIcon,
+  },
+  {
+    name: "Twitter",
+    link: "https://twitter.com/username",
+    icon: TwitterLogoIcon,
   },
 ];
 
 export const skills = [
   {
-    type: "Programming Languages",
-    list: ["TypeScript", "JavaScript", "Python", "SQL", "Java", "HTML", "CSS"],
+    type: "Category1",
+    list: ["Skill1", "Skill2", "Skill3", "Skill4", "Skill5"],
   },
   {
-    type: "Frameworks and Libraries",
-    list: ["Next.js", "React", "Tailwind CSS", "FastAPI", "Astro", "Vite"],
+    type: "Category2",
+    list: ["Skill1", "Skill2", "Skill3"],
   },
   {
-    type: "Databases",
-    list: ["PostgreSQL", "MongoDB", "DynamoDB", "Drizzle (ORM)"],
-  },
-  {
-    type: "ML/AI",
-    list: ["LLM Pipelines", "ML Models (Logistic Regression, Classification)"],
-  },
-  {
-    type: "Cloud, DevOps, and Tools",
-    list: [
-      "AWS (S3, Cognito)",
-      "GCP",
-      "Docker",
-      "Figma",
-      "CI/CD",
-      "Linux",
-      "Jupyter",
-      "Git",
-    ],
+    type: "Category3",
+    list: ["Skill1", "Skill2", "Skill3", "Skill4"],
   },
 ];
