@@ -2,8 +2,6 @@
 
 This is a minimal technical personal website and portfolio Next.js template! You can click `Use this template` in the top right hand of this page to create your own website with this as a starting point. 
 
-*Please remove existing content (specified in `src/lib/data.ts`) from your copy and add your own content before deploying it anywhere.*
-
 ## Features
 - Modular design
 - Easily customizable
