@@ -144,11 +144,7 @@
     @apply min-h-[75vh] flex flex-col justify-center text-center gap-4 items-center text-background;
   }
   .tagline {
-    @apply text-2xl font-semibold;
-    overflow: hidden;
-    white-space: nowrap;
-    display: inline-block;
-    animation: typewriter 6s linear 1;
+    @apply text-xl md:text-2xl font-semibold overflow-hidden whitespace-nowrap inline-block animate-[typewriter_3s_linear_1] md:animate-[typewriter_6s_linear_1];
   }
   @keyframes typewriter {
     from {
