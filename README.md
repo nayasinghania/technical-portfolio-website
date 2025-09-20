@@ -16,6 +16,12 @@ This is a minimal technical personal website and portfolio Next.js template! You
 - Tailwind CSS
 - Shadcn UI
 
+## Example (in dark mode)
+<img width="1435" height="882" alt="home" src="https://github.com/user-attachments/assets/a97c90df-a1dd-44ec-86bf-a978d677c2bb" />
+<img width="1435" height="722" alt="about" src="https://github.com/user-attachments/assets/20ac4457-fbd2-48aa-952f-2a156b76e935" />
+<img width="1440" height="253" alt="skills" src="https://github.com/user-attachments/assets/a0b6927c-6b53-4d7f-b97f-8e1c41af9504" />
+<img width="1438" height="820" alt="project" src="https://github.com/user-attachments/assets/8c9d42af-8931-4c66-b57a-f18c0695a30a" />
+
 ## Setup
 1. `bun install`
 2. `bun dev`
